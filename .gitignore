@@ -1,0 +1,7 @@
+debug
+.metadata
+.vscode
+~*.doc*
+.DS_Store
+Thumbs.db
+.cproject

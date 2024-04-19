@@ -1,0 +1,56 @@
+PROGRAM Automobile
+-	This program creates a fictional person class with methods to get color, make and model
+
+BEGIN
+    BEGIN
+        create a FictionalPerson.h Class declaration header file.
+
+        declare a constant class private member "firstName" variable to store the firstName of the person.
+        declare a constant class private member "lastName" variable to store the lastName of the person.
+        declare a constant class private member "streetAddress" variable to store the street address of the person.
+        declare a constant class private member "city" variable to store the city of the person.
+        declare a constant class private member "zipCode" variable to store the zip code of the person.
+
+        declare a class private method "setFirstName" which takes a validly named constant string parameter as an argument and returns void to set the firstname of the person.
+        declare a class private method "setLastName" which takes a validly named constant string parameter as an argument and returns void to set the lastname of the person.
+        declare a class private method "setStreetAddress" which takes a validly named constant string parameter as an argument and returns void to set the street address of the person.
+        declare a class private method "setCity" which takes a validly named constant string parameter as an argument and returns void to set the city of the person.
+        declare a class private method "setZipCode" which takes a validly named constant string parameter as an argument and returns void to set the zip code of the person.
+
+        declare a class public method "getFirstName" which returns a constant - the firstname of the person.
+        declare a class public method "getLastName" which returns a constant - the lastname of the person.
+        declare a class public method "getStreetAddress" which returns a constant - the street address of the person.
+        declare a class public method "getCity" which returns a constant - the city of the person.
+        declare a class public method "getZipCode" which returns a constant - the zip code of the person.
+        declare a class public method "toString" which returns a constant - a string concatenation of the firstname, lastname, street address, city and zip code of the person.
+
+        declare a class constructor that accepts the firstName, lastName, streetAddress, city, zipCode as parameters.
+        The body of the constructor should set the corresponding class member variables to the parameter values using the corresponding setter methods.
+    END
+
+    BEGIN
+        create the FictionalPerson.cpp Class definition implementation cpp file.
+
+        define a class private method "setFirstName" which takes a validly named string parameter as an argument and returns void, setting the firstName member variable of the class to this parameter.
+        define a class private method "setLastName" which takes a validly named string parameter as an argument and returns void, setting the lastName member variable of the class to this parameter.
+        define a class private method "setStreetAddress" which takes a validly named string parameter as an argument and returns void, setting the streetAddress member variable of the class to this parameter.
+        define a class private method "setCity" which takes a validly named string parameter as an argument and returns void, setting the city member variable of the class to this parameter.
+        define a class private method "setZipCode" which takes a validly named string parameter as an argument and returns void, setting the zipCode member variable of the class to this parameter.
+
+        define a class public method "getFirstName" which returns the firstName parameter of the class.
+        define a class public method "getLastName" which returns the lastName parameter of the class.
+        define a class public method "getStreetAddress" which returns the streetAddress parameter of the class.
+        define a class public method "getCity" which returns the city parameter of the class.
+        define a class public method "getZipCode" which returns the zipCode parameter of the class.
+        define a class public method "toString" which returns a string concatenation of the firstName, lastName, streetAddress, City and zipCode parameters of the class.
+
+        define a class constructor that accepts the firstName, lastName, streetAddress, city, zipCode as parameters.
+        The body of the constructor should set the corresponding class member variables to the parameter values using the corresponding class setter methods.
+    END
+
+    create a CSC450_CT1_mod1-0.cpp main file
+
+    declare a main function to run the program.
+    create a new fictional person instance and store it in a variable.
+    Print out the details of the fictional person created using the "toString" method of the "FictionalPerson" class.
+END
